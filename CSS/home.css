@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    background: linear-gradient(100deg, #e2f4ff 40%, rgb(238, 225, 254) 70%);
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul{
+    float: right;
+    font-size: 25px;   
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.name h1{
+    position: absolute;
+    left: 450px;
+    top: 100px;
+    font-size: 64px;
+    font-family: 'Inter', sans-serif;
+}
+
+.sample-intro p{
+    position: absolute;
+    left: 390px;
+    top: 300px;
+    font-size: 24px;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.image img{
+    width: 300px;
+    height: 290px;
+    border: 2px solid #000000;
+    border-radius: 20px;
+    position: absolute;
+    left: 990px;
+    top: 320px;
+}
+
+.act{
+    text-decoration: underline;
+}
+
+
+footer{
+    position: absolute;
+    left: 570px;
+    top: 720px;
+    font-size: 20px;   
+}
+
+.ctct{
+    background-color: #00FACD;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+
+
+@media screen and (max-width: 500px){
+nav ul li{
+    display: inline-block;
+    margin: 5px;
+    text-align: center;
+}
+
+nav ul{
+    text-align: center;
+}
+
+.name h1{
+    position: absolute;
+    top: 200px;
+    left: 110px;
+    font-size: 22px;
+}
+
+.sample-intro p{
+    position: absolute;
+    top: 250px;
+    left: 100px;
+    font-size: 12px;
+}
+
+.image img{
+    position: absolute;
+    top: 450px;
+    left: 100px;
+    width: 100px;
+}
+}

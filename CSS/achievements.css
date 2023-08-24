@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    background: linear-gradient(100deg, #e2f4ff 40%, rgb(238, 225, 254) 70%);
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul{
+    float: right;
+    font-size: 25px;   
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.name h1{
+    position: absolute;
+    left: 485px;
+    top: 100px;
+    font-size: 64px;
+    font-family: 'Inter', sans-serif;
+}
+
+.ctct{
+    background-color: #00FACD;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.act{
+    text-decoration: underline;
+}
+
+div.row-one{
+    position: absolute;
+    top: 300px;
+    display: flex;
+    gap: 170px;
+}
+
+div.html-certificate{
+    width: 230px;
+    border: 2px solid #000000;
+}
+
+div.html-certificate img{
+    width: 230px;
+}
+
+div.html-certificate h2{
+    text-align: center;
+}
+
+
+div.google-certificate{
+    width: 230px;
+    border: 2px solid #000000;
+}
+
+div.google-certificate img{
+    width: 230px;
+}
+
+div.google-certificate h2{
+    text-align: center;
+}
+
+
+div.model-un{
+    width: 230px;
+    border: 2px solid #000000;
+}
+
+div.model-un img{
+    width: 230px;
+}
+
+div.model-un h2{
+text-align: center;
+}
+
+
+
+div.robotics{
+    width: 230px;
+    border: 2px solid #000000;
+}
+
+div.robotics img{
+    width: 230px;
+}
+
+div.robotics h2{
+text-align: center;
+}
+
+
+
+
+
+div.extracurriculars{
+    position: absolute;
+    top: 900px;
+    width: 500px;
+    left: 480px;
+    border: 4px solid #00ff80;
+    margin-bottom: 500px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    padding: 30px;
+}
+
+div.extracurriculars h1{
+    font-size: 60px;
+}
+
+footer{
+    text-align: center;
+}
+
