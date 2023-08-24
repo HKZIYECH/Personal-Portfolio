@@ -2,6 +2,7 @@
 
 body{
     background: linear-gradient(100deg, #e2f4ff 40%, rgb(238, 225, 254) 70%);
+    font-family: 'Inter', sans-serif;
 }
 
 nav ul li{
