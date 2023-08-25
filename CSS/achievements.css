@@ -2,7 +2,7 @@
 
 body{
     background: linear-gradient(100deg, #e2f4ff 40%, rgb(238, 225, 254) 70%);
-    font-family: 'Inter', sans-serif;
+    width: 100%;
 }
 
 nav ul li{
@@ -48,6 +48,7 @@ div.row-one{
 div.html-certificate{
     width: 230px;
     border: 2px solid #000000;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 div.html-certificate img{
@@ -58,10 +59,20 @@ div.html-certificate h2{
     text-align: center;
 }
 
+div.html-certificate:hover{
+    transform: scale(1.1);
+    transition: 3s;
+}
 
 div.google-certificate{
     width: 230px;
     border: 2px solid #000000;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+div.google-certificate:hover{
+    transform: scale(1.1);
+    transition: 3s;
 }
 
 div.google-certificate img{
@@ -70,12 +81,18 @@ div.google-certificate img{
 
 div.google-certificate h2{
     text-align: center;
+    line-height: 33px;
 }
 
 
 div.model-un{
     width: 230px;
     border: 2px solid #000000;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+div.model-un:hover{
+    transform: scale(1.1);
+    transition: 3s;
 }
 
 div.model-un img{
@@ -91,6 +108,13 @@ text-align: center;
 div.robotics{
     width: 230px;
     border: 2px solid #000000;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+div.robotics:hover{
+    transform: scale(1.1);
+    transition: 3s;
+    
 }
 
 div.robotics img{
@@ -111,10 +135,8 @@ div.extracurriculars{
     width: 500px;
     left: 480px;
     border: 4px solid #00ff80;
-    margin-bottom: 500px;
-    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     padding: 30px;
 }
 
